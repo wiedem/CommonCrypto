@@ -9,7 +9,7 @@ The framework builds with the CommonCrypto version of the selected target SDK of
 The framework uses [LLVM modules][LLVM-Modules] to make the CommonCrypto interfaces available to Swift.
 
 
-You should be aware that CommonCrypto is not designed to be used with Swift and using the C based funtions can be quite challenging. It is highly advised to wrap the CommonCrypto functionality inside a Swift framework in order to use them in Swift applications.
+You should be aware that CommonCrypto is not designed to be used with Swift and using the C based funtions can be quite challenging. It is recommended to wrap the CommonCrypto functionality inside a separate Swift framework using CommonCrypto in order to use it in Swift applications.
 
 
 ## Integration with Carthage
