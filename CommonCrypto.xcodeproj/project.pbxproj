@@ -165,7 +165,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "cp \"${SCRIPT_INPUT_FILE_0}\"/*.h \"${SCRIPT_OUTPUT_FILE_0}\"";
+			shellScript = "mkdir -p $SCRIPT_OUTPUT_FILE_0\ncp \"${SCRIPT_INPUT_FILE_0}\"/*.h \"${SCRIPT_OUTPUT_FILE_0}\"";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
