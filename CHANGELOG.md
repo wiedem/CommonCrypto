@@ -4,6 +4,7 @@
 ### New Features
 * Added build setting to make the framework available for application extensions.
 * Project updated to recommended build settings (Xcode 9).
+* Made the framework compatible with *archive* builds.
 ### Bugfixes
 n/a
 
