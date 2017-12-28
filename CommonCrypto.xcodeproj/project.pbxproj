@@ -6,8 +6,13 @@
 	objectVersion = 48;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		70FB6EEB1FF46E8F009481EF /* CommonCryptoWrapper.h in Headers */ = {isa = PBXBuildFile; fileRef = 70FB6EEA1FF46E8F009481EF /* CommonCryptoWrapper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		70FB6EE91FF40E00009481EF /* CHANGELOG.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = CHANGELOG.md; sourceTree = "<group>"; };
+		70FB6EEA1FF46E8F009481EF /* CommonCryptoWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonCryptoWrapper.h; sourceTree = "<group>"; };
 		8B33F0021E50E6C70050E97C /* CommonCrypto.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CommonCrypto.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B33F0061E50E6C70050E97C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8B33F00E1E50E7390050E97C /* CommonCrypto.modulemap */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; path = CommonCrypto.modulemap; sourceTree = "<group>"; };
@@ -57,6 +62,7 @@
 			isa = PBXGroup;
 			children = (
 				8B33F0341E50EA410050E97C /* C Headers */,
+				70FB6EEA1FF46E8F009481EF /* CommonCryptoWrapper.h */,
 				8B33F00E1E50E7390050E97C /* CommonCrypto.modulemap */,
 				8B33F0061E50E6C70050E97C /* Info.plist */,
 			);
@@ -85,6 +91,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				70FB6EEB1FF46E8F009481EF /* CommonCryptoWrapper.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
